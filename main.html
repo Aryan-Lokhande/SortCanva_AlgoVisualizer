@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <style>
+      canvas {
+        align-self: center;
+        border: 1px black;
+        border-style: groove;
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/513/292/11/gradient-abstract-hd-4k-wallpaper-preview.jpg");
+        background-repeat: repeat;
+        background-size: auto;
+      }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat&family=Ubuntu+Mono&display=swap&effect=3d"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vanilla CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body
+    class="view"
+    style="
+      background-image: url('peakpx.jpg');
+      background-repeat: round;
+
+      background-size: cover;
+      background-position: center center;
+    "
+  >
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark navbar">
+        <div class="container">
+          <a
+            class="navbar-brand"
+            style="font-weight: bolder; font-size: 1.4rem"
+            href=""
+            ><span class="Brand1">S</span><span class="Brand2">ort</span
+            ><span class="Brand1"> C</span><span class="Brand2">anva</span></a
+          ><button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent-7"
+            aria-controls="navbarSupportedContent-7"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+            style="font-family: 'Rubik', sans-serif; font-weight: 800"
+          >
+            <ul class="navbar-nav ml-auto Brand2">
+              <li class="nav-item">
+                <a
+                  class="nav-link arrsize Brand1"
+                  style="color: #ff8c00"
+                  href="#"
+                  >Array size</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bubble" style="color: #ffffff" href="#bubble"
+                  >Bubble Sort</a
+                >
+              </li>
+              <li class="nav-item" style="color: #ffffff">
+                <a class="nav-link Selection" href="#Selection"
+                  >Selection Sort</a
+                >
+              </li>
+              <li class="nav-item" style="color: #ffffff">
+                <a class="nav-link Quick" href="#Quick">Quick Sort</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link Heap" style="color: #ffffff" href="#"
+                  >Heap Sort</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link insertion" href="#">Insertion Sort</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br />
+      <hr style="height: 10%; background-color: transparent" />
+    </div>
+    <div class="container-fluid">
+      <center>
+        <canvas id="myCanvas"></canvas>
+      </center>
+    </div>
+
+    <script src="math.js"></script>
+    <script src="column.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
