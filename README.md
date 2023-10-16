@@ -1,6 +1,6 @@
 # SortCanva: Algorithm Visualization Web App
 
-![Demo Link](https://x-infin1ty-x.github.io/SortCanva_AlgoVisualizer/main.html)
+! Demo Link - https://x-infin1ty-x.github.io/SortCanva_AlgoVisualizer/main.html
 
 SortCanva is a web development project that allows real-time visualization of sorting algorithms such as Merge Sort and Quick Sort, as well as pathfinding algorithms(Underway). This web app provides an interactive way to understand and learn about these algorithms through visualizations. 
 
